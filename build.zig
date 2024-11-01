@@ -24,7 +24,7 @@ fn resolve_target(b: *std.Build, target_requested: ?[]const u8) !std.Build.Resol
     const cpus = .{
         "baseline+aes+neon",
         "baseline+aes+neon",
-        "x86_64_v3+aes",
+        "baseline",
         "x86_64_v3+aes",
         "x86_64_v3+aes",
     };

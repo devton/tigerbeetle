@@ -47,7 +47,7 @@ comptime {
     //
     // If you're trying to compile TigerBeetle for an older CPU without AES hardware acceleration,
     // you'll need to disable the following assert.
-    assert(std.crypto.core.aes.has_hardware_support);
+    // assert(std.crypto.core.aes.has_hardware_support);
 }
 
 fn seed_init() void {
